@@ -13,7 +13,7 @@ jobs:
     - name : clonar repositório
       uses : actions/checkout@v3
 
-    - name : Commit do relatório
+    - name : Commit do relatorio
       run: | 
          git conf user.name "github-actions"
          git add dados/relatorio.csv
